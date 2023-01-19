@@ -147,7 +147,7 @@ These accounts are now created and ready to use on the TestNet!
 **Task:** Add 10 Algos to each of the accounts. The Algo is the native cryptocurrency of the Algorand blockchain.
 
 In order to use your accounts, you need to add Algos to them. On MainNet, you would need to buy them for example on an exchange.
-However, on TestNet, you can just use the [dispenser](https://bank.testnet.algorand.network).
+However, on TestNet, you can just use the [dispenser](https://bank.testnet.algorand.network). This will give you 10 algos.
 
 For each account, copy the address in the text field, click on/solve the CAPTCHA, and click on Submit.
 Refresh the page between each dispention.
