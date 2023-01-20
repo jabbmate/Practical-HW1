@@ -325,7 +325,7 @@ Head over to a [Test ETH faucet](https://goerlifaucet.com/) and transfer some fu
 
 This portion will be the bulk of the Ethereum part of the assignment. 
 
-First, check out [our contract](https://goerli.etherscan.io/address/0x978A328Cc24C0b50a0D9F97787938E67CF09F9A9) on etherscan. You can click the *Contract* tab to view our source code. It’s OK if you don’t understand the code quite yet, you will be learning Solidity in upcoming weeks. The important thing to notice here is the `mintNFT` function signature. Notice it takes no arguments, and contains the modifier `isInAddressBook(msg.sender)`. This means the sender of the transaction (you!) must be in the address book.
+First, check out [our contract](https://goerli.etherscan.io/address/0x978A328Cc24C0b50a0D9F97787938E67CF09F9A9) on etherscan. You can check out the source code in `contract-source.sol` in this directory. It’s OK if you don’t understand the code quite yet, you will be learning Solidity in upcoming weeks. The important thing to notice here is the `mintNFT` function signature. Notice it takes no arguments, and contains the modifier `isInAddressBook(msg.sender)`. This means the sender of the transaction (you!) must be in the address book.
 
 ```jsx
 function mintNFT() public isInAddressBook(msg.sender)
@@ -357,7 +357,7 @@ Write code to enter yourself in the address book. The template includes most of 
 
 The code for sending transactions is in the function `mintNFT` starting in line 30.
 
-First, in line 32, enter the [SHA-256 hash](https://emn178.github.io/online-tools/sha256.html) of your name on the RHS of the assignment to `hashOfName`. Record the exact string you used to generate this hash and submit it to Gradescope. This variable will be used as an argument to the `enterAddressIntoBook` function.
+First, in line 32, enter the [SHA-256 hash](https://emn178.github.io/online-tools/sha256.html) of your name on the RHS of the assignment to `hashOfName`. This variable will be used as an argument to the `enterAddressIntoBook` function.
 
 The transaction object contains the following fields:
 
