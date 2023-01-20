@@ -1,5 +1,3 @@
-# Example of Filled-Out Form
-
 * Please follow the exact format in the example submission! Otherwise our autograder may not be able to parse your submission.
 
 # Part 1: Algorand
@@ -16,7 +14,7 @@
 
 ## Step 3.1:
 
-* Asset ID: 14030074
+* Asset ID:
 * Name of the asset: ``
 
 ## Step 3.2:
